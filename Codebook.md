@@ -1,0 +1,44 @@
+# Code Book
+Author: Majid Mahmood
+
+## Source
+Below URL is used for Data Set
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+A full description and license is available at the site where the data was obtained.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Following steps are performed to complete this task
+
+### Step 01: Download the UCI HAR Dataset
+    UCI HAR Dataset downloaded and extracted
+
+### Step 02: Loading DataSet into run_analysis.R and Assign Veribale
+features <- features.txt
+activities <- activity_labels.txt
+subject_test <- test/subject_test.txt
+x_test <- test/X_test.txt
+y_test <- test/y_test.txt
+subject_train <- test/subject_train.txt
+x_train <- test/X_train.txt
+y_train <- test/y_train.txt
+
+### Step 03: Mergeing and creating one data set
+x veriable created with cbind x_train and x_test
+y veriable created with cbind y_train and y_test
+subject veriable created with rbind subject_train and subject_test
+Merged_Data created with cbind Subject, Y and X
+
+
+
+### Step 04: Extracts mean and standard deviation 
+TidyData is created with the mean and standard deviation of measurement
+
+### Step 05: Give the names to the activities in the data set
+replaced with corresponding activity taken from second column of the activities
+
+### Step 06: Labels the data set with descriptive variable names
+code column renamed into activities
+Acc column’s renamed into Accelerometer
+Gyro column’s renamed into Gyroscope
+

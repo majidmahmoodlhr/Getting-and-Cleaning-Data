@@ -24,10 +24,10 @@ x_train <- test/X_train.txt <br>
 y_train <- test/y_train.txt <br>
 
 ### Step 03: Mergeing and creating one data set
-x veriable created with cbind x_train and x_test
-y veriable created with cbind y_train and y_test
-subject veriable created with rbind subject_train and subject_test
-Merged_Data created with cbind Subject, Y and X
+x veriable created with cbind x_train and x_test <br>
+y veriable created with cbind y_train and y_test <br>
+subject veriable created with rbind subject_train and subject_test <br>
+Merged_Data created with cbind Subject, Y and X <br>
 
 
 
@@ -38,7 +38,7 @@ TidyData is created with the mean and standard deviation of measurement
 replaced with corresponding activity taken from second column of the activities
 
 ### Step 06: Labels the data set with descriptive variable names
-code column renamed into activities
-Acc column’s renamed into Accelerometer
-Gyro column’s renamed into Gyroscope
+code column renamed into activities <br>
+Acc column’s renamed into Accelerometer <br>
+Gyro column’s renamed into Gyroscope <br>
 

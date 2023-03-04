@@ -2,10 +2,10 @@
 Author: Majid Mahmood
 
 ## Source
-Below URL is used for Data Set
+Below URL is used for Data Set<br>
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-A full description and license is available at the site where the data was obtained.
+A full description and license is available at the site where the data was obtained.<br>
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Following steps are performed to complete this task
@@ -14,14 +14,14 @@ Following steps are performed to complete this task
     UCI HAR Dataset downloaded and extracted
 
 ### Step 02: Loading DataSet into run_analysis.R and Assign Veribale
-features <- features.txt
-activities <- activity_labels.txt
-subject_test <- test/subject_test.txt
-x_test <- test/X_test.txt
-y_test <- test/y_test.txt
-subject_train <- test/subject_train.txt
-x_train <- test/X_train.txt
-y_train <- test/y_train.txt
+features <- features.txt <br>
+activities <- activity_labels.txt <br>
+subject_test <- test/subject_test.txt <br>
+x_test <- test/X_test.txt <br>
+y_test <- test/y_test.txt <br>
+subject_train <- test/subject_train.txt <br>
+x_train <- test/X_train.txt <br>
+y_train <- test/y_train.txt <br>
 
 ### Step 03: Mergeing and creating one data set
 x veriable created with cbind x_train and x_test

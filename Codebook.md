@@ -39,6 +39,9 @@ replaced with corresponding activity taken from second column of the activities
 
 ### Step 06: Labels the data set with descriptive variable names
 code column renamed into activities <br>
-Acc column’s renamed into Accelerometer <br>
-Gyro column’s renamed into Gyroscope <br>
-
+Acc replaced with Accelerometer <br>
+Gyro replaced with Gyroscope <br>
+BodyBody replaced with Body <br>
+Mag replaced with Magnitude <br>
+"^f" replaced with Frequency <br>
+"^t" replaced with Time <br>
